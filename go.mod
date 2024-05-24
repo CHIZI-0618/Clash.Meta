@@ -19,14 +19,15 @@ require (
 	github.com/lunixbochs/struc v0.0.0-20200707160740-784aaebc1d40
 	github.com/mdlayher/netlink v1.7.2
 	github.com/metacubex/gopacket v1.1.20-0.20230608035415-7e2f98a3e759
-	github.com/metacubex/quic-go v0.43.2-0.20240518033621-2c3d14c6b38e
+	github.com/metacubex/quic-go v0.44.1-0.20240521004242-fcd70d587e22
 	github.com/metacubex/sing-quic v0.0.0-20240518034124-7696d3f7da72
 	github.com/metacubex/sing-shadowsocks v0.2.6
 	github.com/metacubex/sing-shadowsocks2 v0.2.0
-	github.com/metacubex/sing-tun v0.2.7-0.20240512075008-89e7c6208eec
+	github.com/metacubex/sing-tun v0.2.7-0.20240521155100-e8316a45a414
 	github.com/metacubex/sing-vmess v0.1.9-0.20231207122118-72303677451f
 	github.com/metacubex/sing-wireguard v0.0.0-20240321042214-224f96122a63
 	github.com/metacubex/tfo-go v0.0.0-20240228025757-be1269474a66
+	github.com/metacubex/utls v1.6.6
 	github.com/miekg/dns v1.1.59
 	github.com/mroth/weightedrand/v2 v2.1.0
 	github.com/openacid/low v0.1.21
@@ -37,7 +38,6 @@ require (
 	github.com/sagernet/sing v0.3.8
 	github.com/sagernet/sing-mux v0.2.1-0.20240124034317-9bfb33698bb6
 	github.com/sagernet/sing-shadowtls v0.1.4
-	github.com/sagernet/utls v1.5.4
 	github.com/sagernet/wireguard-go v0.0.0-20231209092712-9a439356a62e
 	github.com/samber/lo v1.39.0
 	github.com/sirupsen/logrus v1.9.3
@@ -62,7 +62,7 @@ require (
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/andybalholm/brotli v1.0.6 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
-	github.com/cloudflare/circl v1.3.6 // indirect
+	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/ericlagergren/aegis v0.0.0-20230312195928-b4ce538b56f9 // indirect
 	github.com/ericlagergren/polyval v0.0.0-20220411101811-e25bc10ba391 // indirect
@@ -103,4 +103,4 @@ require (
 	golang.org/x/tools v0.21.0 // indirect
 )
 
-replace github.com/sagernet/sing => github.com/metacubex/sing v0.0.0-20240408015159-aa61c96df764
+replace github.com/sagernet/sing => github.com/metacubex/sing v0.0.0-20240518125217-e63d65a914d1
